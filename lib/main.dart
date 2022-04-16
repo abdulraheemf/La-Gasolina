@@ -43,8 +43,12 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.only(left: 10),
                 child: Text("Find the nearest gas station", style: TextStyle(color: Colors.green, fontSize: 25),)),
             Container(
-                margin: EdgeInsets.only(top: 10, left: 20, right: 20),
+              decoration: BoxDecoration(
                 color: Color(0xff4B4848),
+                borderRadius: BorderRadius.only(topLeft: Radius.circular(12), topRight: Radius.circular(12))
+              ),
+                margin: EdgeInsets.only(top: 10, left: 5, right: 5),
+                padding: EdgeInsets.only(top: 1),
                 height: size.height * .6,
                 child: ListView(
                   children: [
