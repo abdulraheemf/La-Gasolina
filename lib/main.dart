@@ -1,7 +1,8 @@
+
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:la_gasolina/widgets/stations.dart';
-
+import 'package:geolocator/geolocator.dart';
 import 'model/station.dart';
 
 void main() {
@@ -20,8 +21,23 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
    List<Stations> stationList =[];
   Dio dio = Dio();
+  double lat = 9.518015;
+  double long = 45.539067;
+  
+  getCurrentLocation() async{
+    Position geoposition = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.best);
+   
+    setState(() {
+      lat = geoposition.latitude;
+      long = geoposition.longitude;
+    });
+    
+
+   
+  }
+  
   Future <void> getStationData() async{
-    var url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=gas%20station&location=9.5178081,45.5391096&radius=1500&key=AIzaSyBaCYVfyzEp9ZBQoSMYKXE41UB97zktNGo";
+    var url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=gas%20station&location=$lat,$long&radius=1500&key=AIzaSyBaCYVfyzEp9ZBQoSMYKXE41UB97zktNGo";
     
       var response = await dio.get(url, options: Options(
           followRedirects: false,
@@ -45,7 +61,12 @@ class _MyAppState extends State<MyApp> {
 
 }
  void initState(){
-   getStationData();
+   getCurrentLocation();
+  
+   Future.delayed(
+      const Duration(seconds: 3),
+      () => getStationData()
+    );
   }
   @override
   Widget build(BuildContext context) {
@@ -67,8 +88,11 @@ class _MyAppState extends State<MyApp> {
             Center(
               child: Container(
                 margin: EdgeInsets.only( bottom: 20),
-                child: CircleAvatar(
-                  backgroundImage: AssetImage("assets/logo.jpg"),
+                child: GestureDetector(
+                  onTap: () => getCurrentLocation(),
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage("assets/logo.jpg"),
+                  ),
                 ),
               ),
             ),
