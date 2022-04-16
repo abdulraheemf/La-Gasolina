@@ -52,13 +52,13 @@ class _MyAppState extends State<MyApp> {
       ));
       //print(response.data['results'][2]['name']);
    final List<Stations>loadedList =[];
-   var indexx = 0;
+   var gasindex = 0;
    for (var u in response.data['results']){
-     if(indexx<10){
+     if(gasindex<10){
         Stations newst = Stations(name: u['name'], vicinity: u['vicinity']);
         loadedList.add(newst);
      }
-    indexx++;
+    gasindex++;
     print(response.statusCode);
    }
    setState(() {
