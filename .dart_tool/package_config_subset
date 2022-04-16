@@ -1,7 +1,7 @@
 la_gasolina
 2.15
-file:///Users/semedy/StudioProjects/La-Gasolina-1/
-file:///Users/semedy/StudioProjects/La-Gasolina-1/lib/
+file:///Users/semedy/DevelopedApps/Apps/La-Gasolina/
+file:///Users/semedy/DevelopedApps/Apps/La-Gasolina/lib/
 async
 2.12
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2/
@@ -30,6 +30,10 @@ cupertino_icons
 2.12
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4/
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4/lib/
+dio
+2.12
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/dio-4.0.6/
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/dio-4.0.6/lib/
 fake_async
 2.12
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/

@@ -1,5 +1,8 @@
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:la_gasolina/widgets/stations.dart';
+
+import 'model/station.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -7,8 +10,43 @@ void main() {
   ));
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+   List<Stations> stationList =[];
+  Dio dio = Dio();
+  Future <void> getStationData() async{
+    var url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=gas%20station&location=9.5178081,45.5391096&radius=1500&key=AIzaSyBaCYVfyzEp9ZBQoSMYKXE41UB97zktNGo";
+    
+      var response = await dio.get(url, options: Options(
+          followRedirects: false,
+          validateStatus: (status) => true,
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          }
+      ));
+      //print(response.data['results'][2]['name']);
+   final List<Stations>loadedList =[];
+
+   for (int i=0; i<10; i++){
+     Stations newst = Stations(name: response.data['results'][i]['name'], icon: response.data['results'][i]['icon'], vicinity: response.data['results'][i]['vicinity']);
+    loadedList.add(newst);
+    
+   }
+   setState(() {
+       stationList=loadedList;
+    });
+   print(stationList);
+
+}
+ void initState(){
+   getStationData();
+  }
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -52,14 +90,8 @@ class MyApp extends StatelessWidget {
                 height: size.height * .6,
                 child: ListView(
                   children: [
-                    Station(),
-                    Station(),
-                    Station(),
-                    Station(),
-                    Station(),
-                    Station(),
-                    Station(),
-                    Station(),
+                    ...stationList.map((e) => Station(name: e.name, icon: e.icon, vicinity: e.vicinity),).toList(),
+
 
                   ],
                 ))
