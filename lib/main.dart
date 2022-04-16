@@ -1,4 +1,6 @@
 
+import 'dart:convert';
+
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:la_gasolina/widgets/stations.dart';
@@ -25,7 +27,9 @@ class _MyAppState extends State<MyApp> {
   double long = 45.539067;
   
   getCurrentLocation() async{
-    Position geoposition = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.best);
+    LocationPermission permission;
+    permission = await Geolocator.requestPermission();
+    Position geoposition = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
    
     setState(() {
       lat = geoposition.latitude;
@@ -48,11 +52,14 @@ class _MyAppState extends State<MyApp> {
       ));
       //print(response.data['results'][2]['name']);
    final List<Stations>loadedList =[];
-
-   for (int i=0; i<10; i++){
-     Stations newst = Stations(name: response.data['results'][i]['name'], vicinity: response.data['results'][i]['vicinity']);
-    loadedList.add(newst);
-    
+   var indexx = 0;
+   for (var u in response.data['results']){
+     if(indexx<10){
+        Stations newst = Stations(name: u['name'], vicinity: u['vicinity']);
+        loadedList.add(newst);
+     }
+    indexx++;
+    print(response.statusCode);
    }
    setState(() {
        stationList=loadedList;
@@ -64,9 +71,10 @@ class _MyAppState extends State<MyApp> {
    getCurrentLocation();
   
    Future.delayed(
-      const Duration(seconds: 3),
-      () => getStationData()
+      const Duration(seconds: 5),
+      () => getStationData(),
     );
+    
   }
   @override
   Widget build(BuildContext context) {
