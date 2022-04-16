@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:la_gasolina/widgets/stations.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -47,84 +48,14 @@ class MyApp extends StatelessWidget {
                 height: size.height * .6,
                 child: ListView(
                   children: [
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Stastion", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.local_gas_station),
-                      title: Text("Liibaan Fuel Station", style: TextStyle(color: Colors.white),),
-                      subtitle: Text("New Hargeisa \n Main road 1", style: TextStyle(color: Colors.white)),
-                      trailing: Icon(Icons.location_pin),
-                    ),
+                    Station(),
+                    Station(),
+                    Station(),
+                    Station(),
+                    Station(),
+                    Station(),
+                    Station(),
+                    Station(),
 
                   ],
                 ))
