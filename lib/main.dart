@@ -34,7 +34,7 @@ class _MyAppState extends State<MyApp> {
    final List<Stations>loadedList =[];
 
    for (int i=0; i<10; i++){
-     Stations newst = Stations(name: response.data['results'][i]['name'], icon: response.data['results'][i]['icon'], vicinity: response.data['results'][i]['vicinity']);
+     Stations newst = Stations(name: response.data['results'][i]['name'], vicinity: response.data['results'][i]['vicinity']);
     loadedList.add(newst);
     
    }
@@ -90,7 +90,7 @@ class _MyAppState extends State<MyApp> {
                 height: size.height * .6,
                 child: ListView(
                   children: [
-                    ...stationList.map((e) => Station(name: e.name, icon: e.icon, vicinity: e.vicinity),).toList(),
+                    ...stationList.map((e) => Station(name: e.name, vicinity: e.vicinity),).toList(),
 
 
                   ],

@@ -8,8 +8,8 @@ import 'package:http/http.dart' as http;
 import 'package:la_gasolina/model/station.dart';
 
 class Station extends StatefulWidget {
-   String name, icon, vicinity; 
-  Station({required this.name, required this.icon, required this.vicinity});
+   String name, vicinity; 
+  Station({required this.name,  required this.vicinity});
 
   @override
   State<Station> createState() => _StationState();
