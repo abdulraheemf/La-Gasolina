@@ -1,4 +1,4 @@
-#Sat Apr 16 13:29:15 EET 2022
+#Sat Apr 16 13:43:15 EET 2022
 base.0=/Users/semedy/DevelopedApps/Apps/La-Gasolina/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
