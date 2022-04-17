@@ -111,20 +111,18 @@ class _MyAppState extends State<MyApp> {
             Container(
 
                 margin: EdgeInsets.only(left: 10),
-                child: Text("Find the nearest gas station", style: TextStyle(color: Colors.green, fontSize: 25),)),
+                child: Align(alignment:Alignment.center,child: Text("Find the nearest gas station", style: TextStyle(color: Colors.green, fontSize: 25),))),
             Container(
               decoration: BoxDecoration(
                 color: Color(0xff4B4848),
-                borderRadius: BorderRadius.only(topLeft: Radius.circular(12), topRight: Radius.circular(12))
+                borderRadius: BorderRadius.only(topLeft: Radius.circular(12), topRight: Radius.circular(12), bottomRight: Radius.circular(12),bottomLeft: Radius.circular(12))
               ),
                 margin: EdgeInsets.only(top: 10, left: 5, right: 5),
-                padding: EdgeInsets.only(top: 1),
-                height: size.height * .6,
+                padding: EdgeInsets.all(1),
+                height: size.height * .65,
                 child: ListView(
                   children: [
                     ...stationList.map((e) => Station(name: e.name, vicinity: e.vicinity),).toList(),
-
-
                   ],
                 ))
           ]),

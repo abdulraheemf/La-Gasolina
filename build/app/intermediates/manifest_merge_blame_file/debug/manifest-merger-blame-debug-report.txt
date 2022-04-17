@@ -12,31 +12,31 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:5-67
-14-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:22-64
+14-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:5:5-67
+14-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:5:22-64
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:3:5-81
-15-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:3:22-78
+15-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:3:5-81
+15-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:3:22-78
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:4:5-79
-16-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:4:22-76
+16-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:4:5-79
+16-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:4:22-76
 17    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-17-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:6:5-89
-17-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:6:22-86
+17-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:6:5-89
+17-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:6:22-86
 18    <uses-permission android:name="android.permission.WAKE_LOCK" />
-18-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:7:5-68
-18-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:7:22-65
+18-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:7:5-68
+18-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:7:22-65
 19    <uses-permission android:name="android.hardware.location.gps" />
-19-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:8:5-69
-19-->/Users/semedy/DevelopedApps/Apps/La-Gasolina/android/app/src/main/AndroidManifest.xml:8:22-66
+19-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:8:5-69
+19-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:8:22-66
 20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-20-->[:geolocator_android] /Users/semedy/DevelopedApps/Apps/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
-20-->[:geolocator_android] /Users/semedy/DevelopedApps/Apps/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-74
+20-->[:geolocator_android] C:\Users\abdul\Documents\GitHub\La-Gasolina\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
+20-->[:geolocator_android] C:\Users\abdul\Documents\GitHub\La-Gasolina\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-74
 21
 22    <application
 23        android:name="android.app.Application"
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.6.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/be6c37f920226f799c8e079c11ae9b32/core-1.6.0/AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.6.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\be6c37f920226f799c8e079c11ae9b32\core-1.6.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
 27        android:label="la_gasolina" >
@@ -74,44 +74,31 @@
 59            android:value="2" />
 60
 61        <service
-61-->[:geolocator_android] /Users/semedy/DevelopedApps/Apps/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:56
+61-->[:geolocator_android] C:\Users\abdul\Documents\GitHub\La-Gasolina\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
 62            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-62-->[:geolocator_android] /Users/semedy/DevelopedApps/Apps/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
+62-->[:geolocator_android] C:\Users\abdul\Documents\GitHub\La-Gasolina\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
 63            android:enabled="true"
-63-->[:geolocator_android] /Users/semedy/DevelopedApps/Apps/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-35
+63-->[:geolocator_android] C:\Users\abdul\Documents\GitHub\La-Gasolina\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
 64            android:exported="false"
-64-->[:geolocator_android] /Users/semedy/DevelopedApps/Apps/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+64-->[:geolocator_android] C:\Users\abdul\Documents\GitHub\La-Gasolina\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
 65            android:foregroundServiceType="location" />
-65-->[:geolocator_android] /Users/semedy/DevelopedApps/Apps/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
+65-->[:geolocator_android] C:\Users\abdul\Documents\GitHub\La-Gasolina\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
 66
-67        <uses-library
-67-->[androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/8bafac36c30506b86a131ad919918c25/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-68            android:name="androidx.window.extensions"
-68-->[androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/8bafac36c30506b86a131ad919918c25/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-69            android:required="false" />
-69-->[androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/8bafac36c30506b86a131ad919918c25/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-70        <uses-library
-70-->[androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/8bafac36c30506b86a131ad919918c25/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-71            android:name="androidx.window.sidecar"
-71-->[androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/8bafac36c30506b86a131ad919918c25/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-72            android:required="false" />
-72-->[androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/8bafac36c30506b86a131ad919918c25/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-73
-74        <activity
-74-->[com.google.android.gms:play-services-base:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/fb6bf4f5f637643f688894c1ce8680d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-75-->[com.google.android.gms:play-services-base:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/fb6bf4f5f637643f688894c1ce8680d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-76            android:exported="false"
-76-->[com.google.android.gms:play-services-base:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/fb6bf4f5f637643f688894c1ce8680d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-77-->[com.google.android.gms:play-services-base:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/fb6bf4f5f637643f688894c1ce8680d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-78
-79        <meta-data
-79-->[com.google.android.gms:play-services-basement:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/acb25dbf03ca49df039c17eebbe495b2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-80            android:name="com.google.android.gms.version"
-80-->[com.google.android.gms:play-services-basement:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/acb25dbf03ca49df039c17eebbe495b2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-81            android:value="@integer/google_play_services_version" />
-81-->[com.google.android.gms:play-services-basement:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/acb25dbf03ca49df039c17eebbe495b2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-82    </application>
-83
-84</manifest>
+67        <activity
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\fb6bf4f5f637643f688894c1ce8680d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\fb6bf4f5f637643f688894c1ce8680d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\fb6bf4f5f637643f688894c1ce8680d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\fb6bf4f5f637643f688894c1ce8680d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\acb25dbf03ca49df039c17eebbe495b2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\acb25dbf03ca49df039c17eebbe495b2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\acb25dbf03ca49df039c17eebbe495b2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>

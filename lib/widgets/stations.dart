@@ -6,6 +6,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:la_gasolina/model/station.dart';
+import 'package:la_gasolina/widgets/gas_station_information.dart';
 
 class Station extends StatefulWidget {
    String name, vicinity; 
@@ -27,6 +28,12 @@ class _StationState extends State<Station> {
                         title: Text(widget.name, style: TextStyle(color: Colors.white),),
                         subtitle: Text(widget.vicinity, style: TextStyle(color: Colors.white)),
                         trailing: Icon(Icons.location_pin),
+        onTap: () {Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => gasStationInfo(name: widget.name)),
+        );
+
+        },
                       ),
     );
   }
