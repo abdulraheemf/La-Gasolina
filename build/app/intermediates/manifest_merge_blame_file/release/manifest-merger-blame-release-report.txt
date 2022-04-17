@@ -39,7 +39,7 @@
 21-->[androidx.core:core:1.6.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\be6c37f920226f799c8e079c11ae9b32\core-1.6.0\AndroidManifest.xml:24:18-86
 22        android:icon="@mipmap/ic_launcher"
 22-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:13:9-43
-23        android:label="la_gasolina" >
+23        android:label="La Gasolina" >
 23-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:11:9-36
 24        <activity
 24-->C:\Users\abdul\Documents\GitHub\La-Gasolina\android\app\src\main\AndroidManifest.xml:14:9-34:20
