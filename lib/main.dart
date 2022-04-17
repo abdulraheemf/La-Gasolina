@@ -3,6 +3,7 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:la_gasolina/drawer.dart';
 import 'package:la_gasolina/splash.dart';
 import 'package:la_gasolina/widgets/stations.dart';
 import 'package:geolocator/geolocator.dart';
@@ -10,6 +11,7 @@ import 'model/station.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: SplashScreen(),
   ));
 }
@@ -81,15 +83,13 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
+      drawer: DrawerScreen(),
       backgroundColor: Colors.black,
       appBar: AppBar(
         // title: Text("La Gasolina"),
         backgroundColor: Colors.black,
         centerTitle: true,
-        leading: IconButton(
-          icon: Icon(Icons.menu),
-          onPressed: () {},
-        ),
+
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -123,7 +123,7 @@ class _MyAppState extends State<MyApp> {
                 ),
                   margin: EdgeInsets.only(top: 10, left: 5, right: 5),
                   padding: EdgeInsets.all(1),
-                  height: size.height * .65,
+                  height: size.height * .6,
                   child: ListView(
                     children: [
                       ...stationList.map((e) => Station(name: e.name, vicinity: e.vicinity),).toList(),
