@@ -39,7 +39,7 @@
 24-->[androidx.core:core:1.6.0] C:\Users\abdul\.gradle\caches\transforms-2\files-2.1\be6c37f920226f799c8e079c11ae9b32\core-1.6.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
-27        android:label="la_gasolina" >
+27        android:label="La Gasolina" >
 28        <activity
 29            android:name="com.example.la_gasolina.MainActivity"
 30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

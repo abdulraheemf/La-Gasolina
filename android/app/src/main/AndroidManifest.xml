@@ -8,7 +8,7 @@
     <uses-permission android:name="android.hardware.location.gps" />
 
    <application
-        android:label="la_gasolina"
+        android:label="La Gasolina"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
