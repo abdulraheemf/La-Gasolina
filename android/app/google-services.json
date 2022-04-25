@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "880950822086",
+    "project_id": "la-gasolina-60017",
+    "storage_bucket": "la-gasolina-60017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880950822086:android:0163e47e1fb715053343c7",
+        "android_client_info": {
+          "package_name": "com.example.la_gasolina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880950822086-l93rde4evglugc4p07ks8t0tqg7efug9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp1Km-P7ntN81PTgEe7J1JEW8SqlnHtWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880950822086-l93rde4evglugc4p07ks8t0tqg7efug9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+
+}
