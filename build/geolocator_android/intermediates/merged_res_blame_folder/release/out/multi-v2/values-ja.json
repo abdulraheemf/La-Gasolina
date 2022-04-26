@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\geolocator_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\be6c37f920226f799c8e079c11ae9b32\\core-1.6.0\\res\\values-ja\\values-ja.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\96c09106850c7523644a266476c422c5\\core-1.6.0\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\acb25dbf03ca49df039c17eebbe495b2\\jetified-play-services-basement-17.0.0\\res\\values-ja\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "180",
-                        "endOffsets": "427"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1181",
-                        "endColumns": "180",
-                        "endOffsets": "1357"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\fb6bf4f5f637643f688894c1ce8680d4\\jetified-play-services-base-17.0.0\\res\\values-ja\\values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\b3acd2be1d592805c8e468a90d4c6595\\jetified-play-services-base-17.0.0\\res\\values-ja\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,211,377,499,607,796,918,1053,1362,1553,1656,1820,1941,2120,2270,2360,2449",
                         "endColumns": "105,165,121,107,188,121,134,127,190,102,163,120,178,149,89,88,99",
                         "endOffsets": "206,372,494,602,791,913,1048,1176,1548,1651,1815,1936,2115,2265,2355,2444,2544"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\884adade8c01a3f91b912026c649e258\\jetified-play-services-basement-17.0.0\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "180",
+                        "endOffsets": "427"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1181",
+                        "endColumns": "180",
+                        "endOffsets": "1357"
                     }
                 }
             ]
@@ -60,7 +60,7 @@
             "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\geolocator_android\\intermediates\\res\\merged\\release\\values-ja\\values-ja.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\be6c37f920226f799c8e079c11ae9b32\\core-1.6.0\\res\\values-ja\\values-ja.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\96c09106850c7523644a266476c422c5\\core-1.6.0\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -77,24 +77,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\acb25dbf03ca49df039c17eebbe495b2\\jetified-play-services-basement-17.0.0\\res\\values-ja\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "180",
-                        "endOffsets": "427"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1181",
-                        "endColumns": "180",
-                        "endOffsets": "1357"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\fb6bf4f5f637643f688894c1ce8680d4\\jetified-play-services-base-17.0.0\\res\\values-ja\\values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\b3acd2be1d592805c8e468a90d4c6595\\jetified-play-services-base-17.0.0\\res\\values-ja\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -108,6 +91,23 @@
                         "startOffsets": "105,211,377,499,607,796,918,1053,1362,1553,1656,1820,1941,2120,2270,2360,2449",
                         "endColumns": "105,165,121,107,188,121,134,127,190,102,163,120,178,149,89,88,99",
                         "endOffsets": "206,372,494,602,791,913,1048,1176,1548,1651,1815,1936,2115,2265,2355,2444,2544"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\884adade8c01a3f91b912026c649e258\\jetified-play-services-basement-17.0.0\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "180",
+                        "endOffsets": "427"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1181",
+                        "endColumns": "180",
+                        "endOffsets": "1357"
                     }
                 }
             ]

@@ -1,5 +1,9 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:la_gasolina/main.dart';
+
+import 'auth.dart';
 
 
 class LoginPage extends StatefulWidget {
@@ -9,6 +13,7 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  final FirebaseAuth _auth = FirebaseAuth.instance;
   final TextEditingController _email = TextEditingController();
   final TextEditingController _password = TextEditingController();
   String error = '';
@@ -188,7 +193,15 @@ class _LoginPageState extends State<LoginPage> {
                           style: TextStyle(fontSize: 16, color: Colors.black,fontFamily: 'Poppins'),
                         ),
                         onPressed: () async {
-
+                          FocusScope.of(context).requestFocus(FocusNode());
+                          try {
+                            await _auth.signInWithEmailAndPassword(email:_email.text,password:_password.text);
+                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => MyApp()));
+                          } catch (e){
+                            setState(() {
+                              error= 'Could not sign in, try again';
+                            });
+                          }
                         },
                       ),
                     ),

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\geolocator_android\\intermediates\\res\\merged\\release\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\fb6bf4f5f637643f688894c1ce8680d4\\jetified-play-services-base-17.0.0\\res\\values-is\\values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\b3acd2be1d592805c8e468a90d4c6595\\jetified-play-services-base-17.0.0\\res\\values-is\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\be6c37f920226f799c8e079c11ae9b32\\core-1.6.0\\res\\values-is\\values-is.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\96c09106850c7523644a266476c422c5\\core-1.6.0\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\acb25dbf03ca49df039c17eebbe495b2\\jetified-play-services-basement-17.0.0\\res\\values-is\\values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\884adade8c01a3f91b912026c649e258\\jetified-play-services-basement-17.0.0\\res\\values-is\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -60,7 +60,7 @@
             "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\geolocator_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\fb6bf4f5f637643f688894c1ce8680d4\\jetified-play-services-base-17.0.0\\res\\values-is\\values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\b3acd2be1d592805c8e468a90d4c6595\\jetified-play-services-base-17.0.0\\res\\values-is\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -77,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\be6c37f920226f799c8e079c11ae9b32\\core-1.6.0\\res\\values-is\\values-is.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\96c09106850c7523644a266476c422c5\\core-1.6.0\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -94,7 +94,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\acb25dbf03ca49df039c17eebbe495b2\\jetified-play-services-basement-17.0.0\\res\\values-is\\values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\884adade8c01a3f91b912026c649e258\\jetified-play-services-basement-17.0.0\\res\\values-is\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

@@ -2,6 +2,7 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:la_gasolina/drawer.dart';
 import 'package:la_gasolina/splash.dart';
@@ -9,7 +10,9 @@ import 'package:la_gasolina/widgets/stations.dart';
 import 'package:geolocator/geolocator.dart';
 import 'model/station.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: SplashScreen(),
