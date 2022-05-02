@@ -82,6 +82,7 @@ class _MyAppState extends State<MyApp> {
     );
     
   }
+  int currentIndex=1;
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -94,46 +95,79 @@ class _MyAppState extends State<MyApp> {
         centerTitle: true,
 
       ),
-      body: SingleChildScrollView(
-        child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Center(
-                child: Container(
-                  margin: EdgeInsets.only( bottom: 20),
-                  child: GestureDetector(
-                    onTap: () => getCurrentLocation(),
-                    child: CircleAvatar(
-                      radius: 35,
-                      backgroundColor: Colors.transparent ,
-                      backgroundImage: AssetImage("assets/logo.png"),
+      body: Column(
+        children: [
+          SingleChildScrollView(
+            child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Center(
+                    child: Container(
+                      margin: EdgeInsets.only( bottom: 20),
+                      child: GestureDetector(
+                        onTap: () => getCurrentLocation(),
+                        child: CircleAvatar(
+                          radius: 35,
+                          backgroundColor: Colors.transparent ,
+                          backgroundImage: AssetImage("assets/logo.png"),
+                        ),
+                      ),
                     ),
                   ),
+                  Center(child: Text("La Gasolina", style: TextStyle(color: Colors.white, fontSize: 28),)),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  
+                  Container(
+                    
+                      margin: EdgeInsets.only(left: 10),
+                      child: Align(alignment:Alignment.center,child: Text("Find the nearest gas station", style: TextStyle(color: Colors.green, fontSize: 25),))),
+                  
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Color(0xff4B4848),
+                      borderRadius: BorderRadius.only(topLeft: Radius.circular(12), topRight: Radius.circular(12), bottomRight: Radius.circular(12),bottomLeft: Radius.circular(12))
+                    ),
+                      margin: EdgeInsets.only(top: 0, left: 5, right: 5),
+                      padding: EdgeInsets.all(1),
+                      height: size.height * .5,
+                      child: ListView(
+                        children: [
+                          
+                          ...stationList.map((e) => Station(name: e.name, vicinity: e.vicinity),).toList(),
+                        ],
+                      )),
+                       
+                  
+                ]),
+                
+          ),
+          BottomNavigationBar(
+            currentIndex: currentIndex,
+            type: BottomNavigationBarType.shifting,
+            items: [
+                  BottomNavigationBarItem(
+                    icon: Icon(Icons.list),
+                    label: "List",
+                    backgroundColor: Colors.black,
+                    ),
+                    BottomNavigationBarItem(
+                    icon: Icon(Icons.map),
+                    label: "Map",
+                    backgroundColor: Colors.grey
+                    )
+                ],
+                onTap: (index){
+                  setState(() {
+                    currentIndex = index;
+                  });
+                },
                 ),
-              ),
-              Center(child: Text("La Gasolina", style: TextStyle(color: Colors.white, fontSize: 28),)),
-              SizedBox(
-                height: 20,
-              ),
-              Container(
-
-                  margin: EdgeInsets.only(left: 10),
-                  child: Align(alignment:Alignment.center,child: Text("Find the nearest gas station", style: TextStyle(color: Colors.green, fontSize: 25),))),
-              Container(
-                decoration: BoxDecoration(
-                  color: Color(0xff4B4848),
-                  borderRadius: BorderRadius.only(topLeft: Radius.circular(12), topRight: Radius.circular(12), bottomRight: Radius.circular(12),bottomLeft: Radius.circular(12))
-                ),
-                  margin: EdgeInsets.only(top: 10, left: 5, right: 5),
-                  padding: EdgeInsets.all(1),
-                  height: size.height * .6,
-                  child: ListView(
-                    children: [
-                      ...stationList.map((e) => Station(name: e.name, vicinity: e.vicinity),).toList(),
-                    ],
-                  ))
-            ]),
+        ],
       ),
+      
+
     );
   }
 }
