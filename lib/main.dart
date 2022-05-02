@@ -9,6 +9,7 @@ import 'package:la_gasolina/splash.dart';
 import 'package:la_gasolina/widgets/stations.dart';
 import 'package:geolocator/geolocator.dart';
 import 'model/station.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 
 Future<void> main() async {
@@ -83,7 +84,7 @@ class _MyAppState extends State<MyApp> {
     );
     
   }
-  int currentIndex=1;
+  int currentIndex=0;
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -148,6 +149,12 @@ class _MyAppState extends State<MyApp> {
                       margin: EdgeInsets.only(top: 0, left: 5, right: 5),
                       padding: EdgeInsets.all(1),
                       height: size.height * .5,
+                      child: GoogleMap(
+                        initialCameraPosition: CameraPosition(
+                        target: LatLng(lat,long)),
+                        zoomControlsEnabled: true,
+                        
+                        )
                       )
                       ,
                        

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:10:4-41:19
+INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:10:4-42:19
 MERGED from [:geolocator_android] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:geolocator_android] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
@@ -23,6 +23,8 @@ MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/semedy/.gradle/c
 MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/bf3f5df64477646cb85a52c99bffe2de/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/b876846684cc6477f4d3afcc6522caa4/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/b876846684cc6477f4d3afcc6522caa4/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/3724b2193a900d300d78c99d822e650d/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/3724b2193a900d300d78c99d822e650d/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/75f94ddd8767bafb208717930e12ba5d/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
@@ -42,13 +44,15 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seme
 	android:name
 		INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-42:12
-MERGED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-42:12
+ADDED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
 MERGED from [:geolocator_android] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:google_maps_flutter] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/9db4a992b9da30949ee6712c74e5e490/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
@@ -59,6 +63,7 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/semedy/.gr
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta06] /Users/semedy/.gradle/caches/transforms-2/files-2.1/400b93c28bb9d38c9cdd38763ad1c30f/jetified-firebase-appcheck-interop-16.0.0-beta06/AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/bf3f5df64477646cb85a52c99bffe2de/jetified-firebase-common-20.1.0/AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/b876846684cc6477f4d3afcc6522caa4/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/3724b2193a900d300d78c99d822e650d/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/fdc4f9445c9e7e2fbf6ec7e4b142d6fe/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/75f94ddd8767bafb208717930e12ba5d/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -106,11 +111,11 @@ INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/debug/
 		INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		ADDED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
 		INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		ADDED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
 		INJECTED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -130,6 +135,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/cac
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0012b487837ecf8a1d4f727f89435c6f/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.1.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/063636b41abfe21c205ca15e82fb4ff4/jetified-firebase-firestore-24.1.1/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.1.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/063636b41abfe21c205ca15e82fb4ff4/jetified-firebase-firestore-24.1.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
@@ -152,6 +159,10 @@ MERGED from [:geolocator_android] /Users/semedy/DevelopedApps/Web/La-Gasolina/bu
 MERGED from [:geolocator_android] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/semedy/DevelopedApps/Web/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -172,6 +183,8 @@ MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/semedy/.gradle/c
 MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/bf3f5df64477646cb85a52c99bffe2de/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/b876846684cc6477f4d3afcc6522caa4/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/b876846684cc6477f4d3afcc6522caa4/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/3724b2193a900d300d78c99d822e650d/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/3724b2193a900d300d78c99d822e650d/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/fdc4f9445c9e7e2fbf6ec7e4b142d6fe/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
@@ -324,6 +337,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0012b487837ecf8a1d4f727f89435c6f/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.1.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/063636b41abfe21c205ca15e82fb4ff4/jetified-firebase-firestore-24.1.1/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.1.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/063636b41abfe21c205ca15e82fb4ff4/jetified-firebase-firestore-24.1.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
 MERGED from [io.grpc:grpc-android:1.44.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/23dd53255801804ac1672f15a263a4ed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.44.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/23dd53255801804ac1672f15a263a4ed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
 	android:name
@@ -400,6 +415,24 @@ ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/semedy/.gradle/ca
 		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/bf3f5df64477646cb85a52c99bffe2de/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/bf3f5df64477646cb85a52c99bffe2de/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d999f993fdb178b57e14ac144ae2943c/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/1cb858daf5fca9efd5a29d498c81af88/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 	android:exported

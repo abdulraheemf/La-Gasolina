@@ -78,6 +78,10 @@ flutter_lints
 2.12
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/lib/
+flutter_plugin_android_lifecycle
+2.12
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.5/
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.5/lib/
 geolocator
 2.12
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-8.2.0/
@@ -102,6 +106,14 @@ geolocator_windows
 2.15
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_windows-0.1.0/
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_windows-0.1.0/lib/
+google_maps_flutter
+2.14
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-2.1.4/
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-2.1.4/lib/
+google_maps_flutter_platform_interface
+2.12
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-2.1.5/
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-2.1.5/lib/
 http
 2.14
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/
@@ -154,6 +166,10 @@ stream_channel
 2.12
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0/
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0/lib/
+stream_transform
+2.12
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-2.0.0/
+file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-2.0.0/lib/
 string_scanner
 2.12
 file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0/
