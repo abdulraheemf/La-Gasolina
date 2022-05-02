@@ -141,7 +141,7 @@ class _MyAppState extends State<MyApp> {
                       )):
                       Container(
                         decoration: BoxDecoration(
-                      color: Color(0xff4B4848),
+                      color: Color.fromARGB(255, 131, 127, 127),
                       borderRadius: BorderRadius.only(topLeft: Radius.circular(12), topRight: Radius.circular(12), bottomRight: Radius.circular(12),bottomLeft: Radius.circular(12))
                     ),
                       margin: EdgeInsets.only(top: 0, left: 5, right: 5),
