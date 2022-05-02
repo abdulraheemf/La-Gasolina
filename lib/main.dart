@@ -88,6 +88,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
+    print("${lat}............${long}");
     return Scaffold(
       drawer: DrawerScreen(),
       backgroundColor: Colors.black,
@@ -151,12 +152,15 @@ class _MyAppState extends State<MyApp> {
                       height: size.height * .5,
                       child: GoogleMap(
                         initialCameraPosition: CameraPosition(
-                        target: LatLng(lat,long)),
+                        target: LatLng(lat,long),
+                        zoom: 11.0
+                        ),
                         zoomControlsEnabled: true,
                         
+                        
                         )
-                      )
-                      ,
+                      ),
+                      
                        
                   
                 ]),
