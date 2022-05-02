@@ -10,6 +10,7 @@ import 'package:la_gasolina/widgets/stations.dart';
 import 'package:geolocator/geolocator.dart';
 import 'model/station.dart';
 
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
