@@ -90,9 +90,20 @@ class _MyAppState extends State<MyApp> {
     
   }
   int currentIndex=0;
-
-   final _origin = Marker(markerId: MarkerId("origin"),
-   position: LatLng(37.4219983, -122.084)
+  List<Marker> list = [
+ Marker(
+    markerId: MarkerId('Marker1'),
+    position: LatLng(37.421671, -122.1021793),
+   
+  ),
+   Marker(
+    markerId: MarkerId('Marker2'),
+    position: LatLng(37.406932, -122.0786426),
+  
+  ),
+ ];
+   final _origin = const Marker(markerId: MarkerId("origin"),
+   position: LatLng(37.4065531, -122.0777285)
    );
   @override
   Widget build(BuildContext context) {
@@ -161,11 +172,13 @@ class _MyAppState extends State<MyApp> {
                       height: size.height * .5,
                       child: GoogleMap(
                         markers: {
-                          _origin,
+                          
+                          ...list.map((e) => e)
+                         
                         },
                         initialCameraPosition: CameraPosition(
                         target: LatLng(lat,long),
-                        zoom: 15
+                        zoom: 12
                         ),
                         zoomControlsEnabled: true,
                         
