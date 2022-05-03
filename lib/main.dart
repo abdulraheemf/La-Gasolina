@@ -5,6 +5,7 @@ import 'package:dio/dio.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:la_gasolina/drawer.dart';
+import 'package:la_gasolina/model/Postions.dart';
 import 'package:la_gasolina/splash.dart';
 import 'package:la_gasolina/widgets/stations.dart';
 import 'package:geolocator/geolocator.dart';
@@ -30,6 +31,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
    List<Stations> stationList =[];
+   List<Positions> positionList = [];
   Dio dio = Dio();
   double lat = 9.518015;
   double long = 45.539067;
@@ -44,10 +46,7 @@ class _MyAppState extends State<MyApp> {
       long = geoposition.longitude;
     });
     
-
-   
   }
-  
   Future <void> getStationData() async{
     var url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=gas%20station&location=$lat,$long&radius=1500&key=AIzaSyBaCYVfyzEp9ZBQoSMYKXE41UB97zktNGo";
     
@@ -59,15 +58,20 @@ class _MyAppState extends State<MyApp> {
           }
       ));
       //print(response.data['results'][2]['name']);
+     
    final List<Stations>loadedList =[];
    var gasindex = 0;
    for (var u in response.data['results']){
      if(gasindex<10){
         Stations newst = Stations(name: u['name'], vicinity: u['vicinity']);
+        Positions newpos = Positions(lat: u["geometry"]["location"]["lat"], long: u["geometry"]["location"]["lng"]);
         loadedList.add(newst);
+        positionList.add(newpos);
+        
      }
     gasindex++;
     print(response.statusCode);
+    print("..2....${positionList}");
    }
    setState(() {
        stationList=loadedList;
@@ -75,6 +79,7 @@ class _MyAppState extends State<MyApp> {
    print(stationList);
 
 }
+
  void initState(){
    getCurrentLocation();
   
@@ -85,10 +90,14 @@ class _MyAppState extends State<MyApp> {
     
   }
   int currentIndex=0;
+
+   final _origin = Marker(markerId: MarkerId("origin"),
+   position: LatLng(37.4219983, -122.084)
+   );
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    print("${lat}............${long}");
+    
     return Scaffold(
       drawer: DrawerScreen(),
       backgroundColor: Colors.black,
@@ -151,9 +160,12 @@ class _MyAppState extends State<MyApp> {
                       padding: EdgeInsets.all(1),
                       height: size.height * .5,
                       child: GoogleMap(
+                        markers: {
+                          _origin,
+                        },
                         initialCameraPosition: CameraPosition(
                         target: LatLng(lat,long),
-                        zoom: 11.0
+                        zoom: 15
                         ),
                         zoomControlsEnabled: true,
                         
