@@ -32,6 +32,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
    List<Stations> stationList =[];
    List<Positions> positionList = [];
+   List<Marker> markerList =[];
   Dio dio = Dio();
   double lat = 9.518015;
   double long = 45.539067;
@@ -64,9 +65,12 @@ class _MyAppState extends State<MyApp> {
    for (var u in response.data['results']){
      if(gasindex<10){
         Stations newst = Stations(name: u['name'], vicinity: u['vicinity']);
-        Positions newpos = Positions(lat: u["geometry"]["location"]["lat"], long: u["geometry"]["location"]["lng"]);
+      
+        Marker newMark = Marker(markerId: MarkerId(u["name"]), 
+        position: LatLng(u["geometry"]["location"]["lat"], u["geometry"]["location"]["lng"])
+        );
         loadedList.add(newst);
-        positionList.add(newpos);
+        markerList.add(newMark);
         
      }
     gasindex++;
@@ -90,21 +94,8 @@ class _MyAppState extends State<MyApp> {
     
   }
   int currentIndex=0;
-  List<Marker> list = [
- Marker(
-    markerId: MarkerId('Marker1'),
-    position: LatLng(37.421671, -122.1021793),
-   
-  ),
-   Marker(
-    markerId: MarkerId('Marker2'),
-    position: LatLng(37.406932, -122.0786426),
+
   
-  ),
- ];
-   final _origin = const Marker(markerId: MarkerId("origin"),
-   position: LatLng(37.4065531, -122.0777285)
-   );
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -173,7 +164,7 @@ class _MyAppState extends State<MyApp> {
                       child: GoogleMap(
                         markers: {
                           
-                          ...list.map((e) => e)
+                          ...markerList.map((e) => e)
                          
                         },
                         initialCameraPosition: CameraPosition(
