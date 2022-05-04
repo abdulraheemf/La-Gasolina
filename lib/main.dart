@@ -67,7 +67,6 @@ class _MyAppState extends State<MyApp> {
             headers: {
               'Content-Type': 'application/x-www-form-urlencoded',
             }));
-    //print(response.data['results'][2]['name']);
 
     final List<Stations> loadedList = [];
     var gasindex = 0;
@@ -83,13 +82,10 @@ class _MyAppState extends State<MyApp> {
         markerList.add(newMark);
       }
       gasindex++;
-      print(response.statusCode);
-      print("..2....${positionList}");
     }
     setState(() {
       stationList = loadedList;
     });
-    print(stationList);
   }
 
   void initState() {
