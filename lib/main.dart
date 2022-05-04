@@ -44,7 +44,15 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       lat = geoposition.latitude;
       long = geoposition.longitude;
+      Marker newMark = Marker(
+        markerId: MarkerId("currentlocation"),
+        position: LatLng(geoposition.latitude,geoposition.longitude,
+                ),
+        icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueBlue),
+                );
+      markerList.add(newMark);
     });
+   
   }
 
   Future<void> getStationData() async {
