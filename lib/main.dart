@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:la_gasolina/drawer.dart';
 import 'package:la_gasolina/model/Postions.dart';
 import 'package:la_gasolina/splash.dart';
+import 'package:la_gasolina/topScreem.dart';
 import 'package:la_gasolina/widgets/stations.dart';
 import 'package:geolocator/geolocator.dart';
 import 'model/station.dart';
@@ -142,9 +143,14 @@ class _MyAppState extends State<MyApp> {
                       margin: EdgeInsets.only(left: 10),
                       child: Align(
                           alignment: Alignment.center,
-                          child: Text(
-                            "Find the nearest gas station",
-                            style: TextStyle(color: Colors.green, fontSize: 25),
+                          child: GestureDetector(
+                            onTap: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => TopScorer(),));
+                            },
+                            child: Text(
+                              "Find the nearest gas station",
+                              style: TextStyle(color: Colors.green, fontSize: 25),
+                            ),
                           ))),
                   currentIndex == 0
                       ? Container(
