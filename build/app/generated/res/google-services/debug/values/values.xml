@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">880950822086-l93rde4evglugc4p07ks8t0tqg7efug9.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">880950822086</string>
-    <string name="google_api_key" translatable="false">AIzaSyDp1Km-P7ntN81PTgEe7J1JEW8SqlnHtWw</string>
-    <string name="google_app_id" translatable="false">1:880950822086:android:0163e47e1fb715053343c7</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDp1Km-P7ntN81PTgEe7J1JEW8SqlnHtWw</string>
-    <string name="google_storage_bucket" translatable="false">la-gasolina-60017.appspot.com</string>
-    <string name="project_id" translatable="false">la-gasolina-60017</string>
+    <string name="default_web_client_id" translatable="false">343442589152-8op487u9j02mkm1dnvid99euu673li7p.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://la-gasolina-5005a-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">343442589152</string>
+    <string name="google_api_key" translatable="false">AIzaSyCMxJ6cWsXiB3HtevdrtpgmNrEST1yE0oc</string>
+    <string name="google_app_id" translatable="false">1:343442589152:android:2f8a734a8b90b8815b1785</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCMxJ6cWsXiB3HtevdrtpgmNrEST1yE0oc</string>
+    <string name="google_storage_bucket" translatable="false">la-gasolina-5005a.appspot.com</string>
+    <string name="project_id" translatable="false">la-gasolina-5005a</string>
 </resources>

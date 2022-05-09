@@ -74,6 +74,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "firebase_analytics",
+      "rootUri": "file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_analytics-9.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_analytics_platform_interface",
+      "rootUri": "file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_analytics_platform_interface-3.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_analytics_web",
+      "rootUri": "file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_analytics_web-0.4.0+12",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "firebase_auth",
       "rootUri": "file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.3.15",
       "packageUri": "lib/",
@@ -99,13 +117,13 @@
     },
     {
       "name": "firebase_core_platform_interface",
-      "rootUri": "file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.2.5",
+      "rootUri": "file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
       "name": "firebase_core_web",
-      "rootUri": "file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.6.2",
+      "rootUri": "file:///Users/semedy/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.6.3",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
@@ -314,7 +332,7 @@
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2022-05-02T10:10:27.334418Z",
+  "generated": "2022-05-09T05:45:30.221427Z",
   "generator": "pub",
   "generatorVersion": "2.16.2"
 }
