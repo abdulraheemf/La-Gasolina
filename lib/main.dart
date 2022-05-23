@@ -47,6 +47,7 @@ class _MyAppState extends State<MyApp> {
       long = geoposition.longitude;
       Marker newMark = Marker(
         markerId: MarkerId("currentlocation"),
+        infoWindow: const InfoWindow(title: "Origin"),
         position: LatLng(
           geoposition.latitude,
           geoposition.longitude,
@@ -74,9 +75,11 @@ class _MyAppState extends State<MyApp> {
     for (var u in response.data['results']) {
       if (gasindex < 10) {
         Stations newst = Stations(name: u['name'], vicinity: u['vicinity']);
-
+       
         Marker newMark = Marker(
+            
             markerId: MarkerId(u["name"]),
+            infoWindow:  InfoWindow(title: u["name"]),
             position: LatLng(u["geometry"]["location"]["lat"],
                 u["geometry"]["location"]["lng"]));
         loadedList.add(newst);
