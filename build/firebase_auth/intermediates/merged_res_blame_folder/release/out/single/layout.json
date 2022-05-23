@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\firebase_auth\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\firebase_auth\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\firebase_auth\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\firebase_auth\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\firebase_auth\\intermediates\\res\\merged\\release\\layout\\browser_actions_context_menu_page.xml",
+        "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\66c7c183f96e8c7097b3363cf9011b41\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\firebase_auth\\intermediates\\res\\merged\\release\\layout\\browser_actions_context_menu_row.xml",
+        "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\66c7c183f96e8c7097b3363cf9011b41\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\firebase_auth\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\firebase_auth\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    }
+]

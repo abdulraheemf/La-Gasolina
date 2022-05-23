@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/semedy/DevelopedApps/Web/La-Gasolina/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/semedy/DevelopedApps/Web/La-Gasolina/android/app/src/main/res/values-night/styles.xml",
+                    "source": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
