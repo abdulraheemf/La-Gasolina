@@ -12,6 +12,8 @@ import 'package:geolocator/geolocator.dart';
 import 'model/station.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
+import 'widgets/gas_station_information.dart';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -79,7 +81,14 @@ class _MyAppState extends State<MyApp> {
         Marker newMark = Marker(
             
             markerId: MarkerId(u["name"]),
-            infoWindow:  InfoWindow(title: u["name"]),
+            infoWindow:  InfoWindow(title: u["name"],
+            onTap: () {
+              Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => gasStationInfo(name: u['name'])),
+        );
+            }
+            ),
             position: LatLng(u["geometry"]["location"]["lat"],
                 u["geometry"]["location"]["lng"]));
         loadedList.add(newst);

@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2230",
-                        "endColumns": "100",
-                        "endOffsets": "2326"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\ad358c40d242531a6d553fe08ca26e17\\jetified-play-services-basement-18.0.0\\res\\values-b+sr+Latn\\values.xml",
+                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/ad358c40d242531a6d553fe08ca26e17/jetified-play-services-basement-18.0.0/res/values-b+sr+Latn/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\e4af51459d2009500b93c2a629cf50b5\\jetified-play-services-base-18.0.1\\res\\values-b+sr+Latn\\values.xml",
+                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/e4af51459d2009500b93c2a629cf50b5/jetified-play-services-base-18.0.1/res/values-b+sr+Latn/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,32 +35,32 @@
                         "startOffsets": "55,162,320,447,557,711,838,950,1182,1331,1438,1598,1725,1874,2017,2085,2150",
                         "endColumns": "106,157,126,109,153,126,111,101,148,106,159,126,148,142,67,64,79",
                         "endOffsets": "157,315,442,552,706,833,945,1047,1326,1433,1593,1720,1869,2012,2080,2145,2225"
+                    }
+                },
+                {
+                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/489e9375f01d9206390e16266180ae13/core-1.6.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2230",
+                        "endColumns": "100",
+                        "endOffsets": "2326"
                     }
                 }
             ]
         },
         {
-            "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\google_maps_flutter\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/res/merged/debug/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2230",
-                        "endColumns": "100",
-                        "endOffsets": "2326"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\ad358c40d242531a6d553fe08ca26e17\\jetified-play-services-basement-18.0.0\\res\\values-b+sr+Latn\\values.xml",
+                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/ad358c40d242531a6d553fe08ca26e17/jetified-play-services-basement-18.0.0/res/values-b+sr+Latn/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -94,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\e4af51459d2009500b93c2a629cf50b5\\jetified-play-services-base-18.0.1\\res\\values-b+sr+Latn\\values.xml",
+                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/e4af51459d2009500b93c2a629cf50b5/jetified-play-services-base-18.0.1/res/values-b+sr+Latn/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -108,6 +91,23 @@
                         "startOffsets": "55,162,320,447,557,711,838,950,1182,1331,1438,1598,1725,1874,2017,2085,2150",
                         "endColumns": "106,157,126,109,153,126,111,101,148,106,159,126,148,142,67,64,79",
                         "endOffsets": "157,315,442,552,706,833,945,1047,1326,1433,1593,1720,1869,2012,2080,2145,2225"
+                    }
+                },
+                {
+                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/489e9375f01d9206390e16266180ae13/core-1.6.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2230",
+                        "endColumns": "100",
+                        "endOffsets": "2326"
                     }
                 }
             ]

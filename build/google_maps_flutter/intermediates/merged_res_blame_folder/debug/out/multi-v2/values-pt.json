@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\values-pt\\values-pt.xml",
+            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\values-pt\\values-pt.xml",
+                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/489e9375f01d9206390e16266180ae13/core-1.6.0/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\google_maps_flutter\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/res/merged/debug/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\489e9375f01d9206390e16266180ae13\\core-1.6.0\\res\\values-pt\\values-pt.xml",
+                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/489e9375f01d9206390e16266180ae13/core-1.6.0/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
