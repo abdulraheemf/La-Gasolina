@@ -12,8 +12,22 @@ class DatabaseService {
       'secondName': secondName,
       'phone' : phone,
       "favorites": <String>[],
+      'update' : 0,
     }) ;
   }
+
+  Future<void> updatedUser() async{
+
+  }
+  Future<void> addGasStation(String name,String petrolPrice,String dieselPrice) async {
+    FirebaseFirestore.instance.collection('gas_stations').doc(name)
+        .set({
+      'gas_station_name': name,
+      'petrol_price': petrolPrice,
+      'diesel_price' : dieselPrice,
+    }) ;
+  }
+
 
 
 
