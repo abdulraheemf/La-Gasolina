@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "io.launchclub.lagasolina",
+  "applicationId": "com.example.la_gasolina",
   "variantName": "processDebugResources",
   "elements": [
     {

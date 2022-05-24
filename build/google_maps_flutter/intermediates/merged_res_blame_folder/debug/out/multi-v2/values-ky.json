@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/res/merged/debug/values-ky/values-ky.xml",
+            "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\google_maps_flutter\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ky\\values-ky.xml",
             "map": [
                 {
-                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/489e9375f01d9206390e16266180ae13/core-1.6.0/res/values-ky/values-ky.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\96c09106850c7523644a266476c422c5\\core-1.6.0\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/e4af51459d2009500b93c2a629cf50b5/jetified-play-services-base-18.0.1/res/values-ky/values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\1cb858daf5fca9efd5a29d498c81af88\\jetified-play-services-base-18.0.1\\res\\values-ky\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/ad358c40d242531a6d553fe08ca26e17/jetified-play-services-basement-18.0.0/res/values-ky/values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\5f0bdd5f66d29f07bd2bb38368c267e9\\jetified-play-services-basement-18.0.0\\res\\values-ky\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -57,10 +57,10 @@
             ]
         },
         {
-            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml",
+            "outputFile": "C:\\Users\\abdul\\Documents\\GitHub\\La-Gasolina\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\values-ky\\values-ky.xml",
             "map": [
                 {
-                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/489e9375f01d9206390e16266180ae13/core-1.6.0/res/values-ky/values-ky.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\96c09106850c7523644a266476c422c5\\core-1.6.0\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -77,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/e4af51459d2009500b93c2a629cf50b5/jetified-play-services-base-18.0.1/res/values-ky/values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\1cb858daf5fca9efd5a29d498c81af88\\jetified-play-services-base-18.0.1\\res\\values-ky\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,7 +94,7 @@
                     }
                 },
                 {
-                    "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/ad358c40d242531a6d553fe08ca26e17/jetified-play-services-basement-18.0.0/res/values-ky/values.xml",
+                    "source": "C:\\Users\\abdul\\.gradle\\caches\\transforms-2\\files-2.1\\5f0bdd5f66d29f07bd2bb38368c267e9\\jetified-play-services-basement-18.0.0\\res\\values-ky\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

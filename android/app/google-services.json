@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "343442589152",
-    "firebase_url": "https://la-gasolina-5005a-default-rtdb.firebaseio.com",
-    "project_id": "la-gasolina-5005a",
-    "storage_bucket": "la-gasolina-5005a.appspot.com"
+    "project_number": "880950822086",
+    "project_id": "la-gasolina-60017",
+    "storage_bucket": "la-gasolina-60017.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:343442589152:android:2f8a734a8b90b8815b1785",
+        "mobilesdk_app_id": "1:880950822086:android:0163e47e1fb715053343c7",
         "android_client_info": {
-          "package_name": "io.launchclub.lagasolina"
+          "package_name": "com.example.la_gasolina"
         }
       },
       "oauth_client": [
         {
-          "client_id": "343442589152-8op487u9j02mkm1dnvid99euu673li7p.apps.googleusercontent.com",
+          "client_id": "880950822086-l93rde4evglugc4p07ks8t0tqg7efug9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCMxJ6cWsXiB3HtevdrtpgmNrEST1yE0oc"
+          "current_key": "AIzaSyDp1Km-P7ntN81PTgEe7J1JEW8SqlnHtWw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "343442589152-8op487u9j02mkm1dnvid99euu673li7p.apps.googleusercontent.com",
+              "client_id": "880950822086-l93rde4evglugc4p07ks8t0tqg7efug9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
