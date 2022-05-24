@@ -85,7 +85,7 @@ class _MyAppState extends State<MyApp> {
             onTap: () {
               Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => gasStationInfo(name: u['name'])),
+          MaterialPageRoute(builder: (context) =>  gasStationInfo(name: u['name'])),
         );
             }
             ),
