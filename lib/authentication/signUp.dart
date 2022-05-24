@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:la_gasolina/authentication/Login%20Screen.dart';
 import 'package:la_gasolina/main.dart';
 
 import 'auth.dart';
@@ -364,8 +365,8 @@ class _RegisterNewUserState extends State<RegisterNewUser> {
                         onPressed: () async {
                           FocusScope.of(context).requestFocus(FocusNode());
                           try {
-                             await _auth.createUserWithEmailAndPassword(email:email.text, password:password.text);
-                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => const MyApp()));
+                             await AuthService().registerWithEmailAndPassword(email.text, password.text,firstName.text,secondName.text,phoneNumber.text);
+                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => LoginPage()));
                           } catch (e){
                           setState(() {
                           error= 'Could not create an account with these Credentials, please try with different credentials';

@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:la_gasolina/homeScreenLogged.dart';
 import 'package:la_gasolina/main.dart';
 
 import 'auth.dart';
@@ -196,7 +197,7 @@ class _LoginPageState extends State<LoginPage> {
                           FocusScope.of(context).requestFocus(FocusNode());
                           try {
                             await _auth.signInWithEmailAndPassword(email:_email.text,password:_password.text);
-                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => MyApp()));
+                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => MyAppLogged()));
                           } catch (e){
                             setState(() {
                               error= 'Could not sign in, try again';
