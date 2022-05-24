@@ -19,7 +19,7 @@ class DatabaseService {
   Future<void> updatedUser() async{
 
   }
-  Future<void> addGasStation(String name,String petrolPrice,String dieselPrice) async {
+  Future<void> addGasStation(String name,String dieselPrice,String petrolPrice) async {
     FirebaseFirestore.instance.collection('gas_stations').doc(name)
         .set({
       'gas_station_name': name,
