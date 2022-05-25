@@ -13,6 +13,7 @@ import 'model/station.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 import 'widgets/gas_station_information.dart';
+import 'widgets/wrapper.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -83,9 +84,10 @@ class _MyAppState extends State<MyApp> {
             markerId: MarkerId(u["name"]),
             infoWindow:  InfoWindow(title: u["name"],
             onTap: () {
-              Navigator.push(
+             Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) =>  gasStationInfo(name: u['name'])),
+          MaterialPageRoute(builder: (context) => Wrapper(name: u['name'])),
+        
         );
             }
             ),
