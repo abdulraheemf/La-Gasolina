@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/semedy/Downloads/La-Gasolina/build/google_maps_flutter/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/1cb858daf5fca9efd5a29d498c81af88/jetified-play-services-base-18.0.1/res/values-lo/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/semedy/Downloads/La-Gasolina/build/google_maps_flutter/intermediates/res/merged/debug/values-lo/values-lo.xml",
+            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/res/merged/debug/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/1cb858daf5fca9efd5a29d498c81af88/jetified-play-services-base-18.0.1/res/values-lo/values.xml",

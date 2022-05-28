@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:10:4-42:19
-MERGED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
-MERGED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:10:4-42:19
+MERGED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/29fa090d6d134c23788900fa122a3ad0/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/29fa090d6d134c23788900fa122a3ad0/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d0ccf024bc63611bf3a5e8c19203fdce/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
@@ -64,20 +64,20 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seme
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/96c09106850c7523644a266476c422c5/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
-MERGED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
-MERGED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:google_maps_flutter] /Users/semedy/Downloads/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/Downloads/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:google_maps_flutter] /Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/StudioProjects/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/9db4a992b9da30949ee6712c74e5e490/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/29fa090d6d134c23788900fa122a3ad0/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/d0ccf024bc63611bf3a5e8c19203fdce/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
@@ -137,37 +137,37 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/semedy/.gradle/c
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/2c72bc00566d1ca048b0be03dab6ab50/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.44.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/23dd53255801804ac1672f15a263a4ed/jetified-grpc-android-1.44.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/be301c0c727be5bd55e1d0561cfb05d2/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:2:5-38
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:3:5-81
+ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:3:5-81
 	android:name
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:3:22-78
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:3:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:4:5-79
+ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:4:5-79
 	android:name
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:4:22-76
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:4:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
+ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0012b487837ecf8a1d4f727f89435c6f/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0012b487837ecf8a1d4f727f89435c6f/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/dfe7f4dbfca0333165e349c787c9c041/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:14:5-67
@@ -185,15 +185,15 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/ff694eea6d59d27b74595019141f92ef/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/ff694eea6d59d27b74595019141f92ef/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
-ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:6:5-89
+ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:6:5-89
 	android:name
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:6:22-86
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:6:22-86
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:7:5-68
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:7:5-68
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0fd68fab33d8426e3954feed3f3038f2/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0fd68fab33d8426e3954feed3f3038f2/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/efd773dab9679af0a7c125582dce8dc5/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
@@ -203,29 +203,29 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/ff694eea6d59d27b74595019141f92ef/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/ff694eea6d59d27b74595019141f92ef/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:7:22-65
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:7:22-65
 uses-permission#android.hardware.location.gps
-ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:8:5-69
+ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:8:5-69
 	android:name
-		ADDED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml:8:22-66
+		ADDED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml:8:22-66
 uses-sdk
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml
-MERGED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:google_maps_flutter] /Users/semedy/Downloads/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:google_maps_flutter] /Users/semedy/Downloads/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/Downloads/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/Downloads/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml
+MERGED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/semedy/StudioProjects/La-Gasolina/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/StudioProjects/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/semedy/StudioProjects/La-Gasolina/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/9db4a992b9da30949ee6712c74e5e490/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/9db4a992b9da30949ee6712c74e5e490/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/29fa090d6d134c23788900fa122a3ad0/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -344,30 +344,30 @@ MERGED from [io.grpc:grpc-android:1.44.1] /Users/semedy/.gradle/caches/transform
 MERGED from [io.grpc:grpc-android:1.44.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/23dd53255801804ac1672f15a263a4ed/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/be301c0c727be5bd55e1d0561cfb05d2/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/semedy/.gradle/caches/transforms-2/files-2.1/be301c0c727be5bd55e1d0561cfb05d2/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/semedy/Downloads/La-Gasolina/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/semedy/StudioProjects/La-Gasolina/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
+ADDED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
 	android:name
-		ADDED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-74
+		ADDED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-74
 service#com.baseflow.geolocator.GeolocatorLocationService
-ADDED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:56
+ADDED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:56
 	android:enabled
-		ADDED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-35
+		ADDED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-35
 	android:exported
-		ADDED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+		ADDED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
 	android:foregroundServiceType
-		ADDED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
+		ADDED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
 	android:name
-		ADDED from [:geolocator_android] /Users/semedy/Downloads/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
+		ADDED from [:geolocator_android] /Users/semedy/StudioProjects/La-Gasolina/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+ADDED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0012b487837ecf8a1d4f727f89435c6f/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0012b487837ecf8a1d4f727f89435c6f/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/dfe7f4dbfca0333165e349c787c9c041/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:13:5-79
@@ -387,15 +387,15 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /U
 MERGED from [io.grpc:grpc-android:1.44.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/23dd53255801804ac1672f15a263a4ed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.44.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/23dd53255801804ac1672f15a263a4ed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+		ADDED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
-MERGED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0012b487837ecf8a1d4f727f89435c6f/jetified-firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/semedy/.gradle/caches/transforms-2/files-2.1/0012b487837ecf8a1d4f727f89435c6f/jetified-firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/semedy/.gradle/caches/transforms-2/files-2.1/dfe7f4dbfca0333165e349c787c9c041/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:17:9-23:19
@@ -413,31 +413,31 @@ MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/semedy/.gradle/c
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/semedy/.gradle/caches/transforms-2/files-2.1/30b2f310392e263714bd8069e6f4d38a/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
+		ADDED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+ADDED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
 	android:value
-		ADDED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+		ADDED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
 	android:name
-		ADDED from [:firebase_analytics] /Users/semedy/Downloads/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-128
+		ADDED from [:firebase_analytics] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-128
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] /Users/semedy/Downloads/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] /Users/semedy/Downloads/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+		ADDED from [:cloud_firestore] /Users/semedy/StudioProjects/La-Gasolina/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /Users/semedy/Downloads/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] /Users/semedy/StudioProjects/La-Gasolina/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /Users/semedy/.gradle/caches/transforms-2/files-2.1/29fa090d6d134c23788900fa122a3ad0/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required

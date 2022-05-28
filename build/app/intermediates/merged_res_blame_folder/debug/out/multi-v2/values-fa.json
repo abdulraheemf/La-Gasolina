@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/semedy/Downloads/La-Gasolina/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml",
+            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/1cb858daf5fca9efd5a29d498c81af88/jetified-play-services-base-18.0.1/res/values-fa/values.xml",

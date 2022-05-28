@@ -12,6 +12,7 @@ import 'package:geolocator/geolocator.dart';
 import 'model/station.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
+import 'widgets/favScreen.dart';
 import 'widgets/gas_station_information.dart';
 import 'widgets/wrapper.dart';
 
@@ -125,6 +126,14 @@ class _MyAppState extends State<MyApp> {
         // title: Text("La Gasolina"),
         backgroundColor: Colors.black,
         centerTitle: true,
+        actions: [
+          GestureDetector(
+            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => FavScreen(),)),
+            child: Container(
+              margin: EdgeInsets.only(right: 20),
+              child: Icon(Icons.favorite)),
+          )
+        ],
       ),
       body: Column(
         children: [

@@ -18,7 +18,8 @@ class Station extends StatefulWidget {
 }
 
 class _StationState extends State<Station> {
-
+  var isfav = false;
+  Color favcolor = Colors.white;
   @override
   Widget build(BuildContext context) {
    
@@ -28,7 +29,13 @@ class _StationState extends State<Station> {
                         leading: Icon(Icons.local_gas_station),
                         title: Text(widget.name, style: TextStyle(color: Colors.white),),
                         subtitle: Text(widget.vicinity, style: TextStyle(color: Colors.white)),
-                        trailing: Icon(Icons.location_pin),
+                        trailing: GestureDetector(
+                          onTap: (){
+                            setState(() {
+                              favcolor = Colors.red;
+                            });
+                          },
+                          child: Icon(Icons.favorite, color: favcolor,)),
         onTap: () {Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => Wrapper(name: widget.name)),

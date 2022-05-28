@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/semedy/Downloads/La-Gasolina/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/Users/semedy/StudioProjects/La-Gasolina/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/Users/semedy/.gradle/caches/transforms-2/files-2.1/96c09106850c7523644a266476c422c5/core-1.6.0/res/values-ja/values-ja.xml",
