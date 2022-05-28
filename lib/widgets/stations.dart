@@ -18,8 +18,24 @@ class Station extends StatefulWidget {
 }
 
 class _StationState extends State<Station> {
+  List<Stations> favStations = [];
   var isfav = false;
   Color favcolor = Colors.white;
+
+  void addNewFav(String name, String vicinity){
+    final url = Uri.parse("https://la-gasolina-60017-default-rtdb.firebaseio.com/favs.json");
+    http.post(url, body: json.encode({
+      'name': name,
+      'vicinity': vicinity,
+    }));
+    final newfav = Stations(
+      name: name,
+      vicinity: vicinity,
+    );
+    setState(() {
+      favStations.add(newfav);
+    });
+  }
   @override
   Widget build(BuildContext context) {
    
@@ -33,6 +49,7 @@ class _StationState extends State<Station> {
                           onTap: (){
                             setState(() {
                               favcolor = Colors.red;
+                              addNewFav(widget.name, widget.vicinity);
                             });
                           },
                           child: Icon(Icons.favorite, color: favcolor,)),
