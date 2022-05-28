@@ -11,6 +11,7 @@ import 'package:la_gasolina/widgets/stations.dart';
 import 'package:geolocator/geolocator.dart';
 import 'model/station.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:http/http.dart' as http;
 
 import 'widgets/favScreen.dart';
 import 'widgets/gas_station_information.dart';
@@ -39,6 +40,7 @@ class _MyAppState extends State<MyApp> {
   Dio dio = Dio();
   double lat = 9.518015;
   double long = 45.539067;
+  List<Stations> favStations = [];
 
   getCurrentLocation() async {
     LocationPermission permission;
