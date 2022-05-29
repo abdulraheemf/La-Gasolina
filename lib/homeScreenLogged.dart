@@ -4,9 +4,9 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:la_gasolina/drawerLoggedIN.dart';
 import 'package:la_gasolina/topScreem.dart';
+import 'package:la_gasolina/widgets/favScreen.dart';
 import 'package:la_gasolina/widgets/gas_station_information.dart';
 import 'package:la_gasolina/widgets/stations.dart';
-
 import 'model/Postions.dart';
 import 'model/station.dart';
 
@@ -110,7 +110,16 @@ class _MyAppLoggedState extends State<MyAppLogged> {
         // title: Text("La Gasolina"),
         backgroundColor: Colors.black,
         centerTitle: true,
+        actions: [
+          GestureDetector(
+            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => FavScreen(),)),
+            child: Container(
+                margin: EdgeInsets.only(right: 20),
+                child: Icon(Icons.favorite)),
+          )
+        ],
       ),
+
       body: Column(
         children: [
           SingleChildScrollView(
