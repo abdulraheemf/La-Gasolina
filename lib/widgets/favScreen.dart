@@ -25,7 +25,8 @@ class _FavScreenState extends State<FavScreen> {
     extractedData.forEach((key, value) {
      LoadedList.add(Stations(
        name: value["name"], 
-       vicinity: value["vicinity"], 
+       vicinity: value["vicinity"],
+       id: key 
      ));
     });
     setState(() {
@@ -36,6 +37,20 @@ class _FavScreenState extends State<FavScreen> {
       
     }
   }
+
+  Future<void> deleteMatch(String ID) {
+
+     print(ID);
+     final url = Uri.parse(
+         "https://la-gasolina-60017-default-rtdb.firebaseio.com/favs/$ID.json");
+     print("${url.toString()} pri");
+     return http.delete(url).then((response) {
+      // print(response.body);
+
+      favStations.removeWhere((element) => element.id == ID);
+
+     });
+   }
   @override
   void initState() {
     // TODO: implement initState
@@ -60,13 +75,24 @@ class _FavScreenState extends State<FavScreen> {
                                   bottomLeft: Radius.circular(12))),
                           margin: EdgeInsets.only(top: 0, left: 5, right: 5),
                           padding: EdgeInsets.all(1),
-                          
                           child: ListView(
                             children: [
                               ...favStations
                                   .map(
-                                    (e) => Station(
-                                        name: e.name, vicinity: e.vicinity),
+                                    (e) => Dismissible(
+                                      key: UniqueKey(),
+                                      onDismissed: (direction){
+                                        setState(() {
+                                          deleteMatch(e.id);
+                                          favStations.removeWhere((element) => element.id==e.id);
+                                          
+                                        });
+                                        ScaffoldMessenger.of(context)
+                              .showSnackBar(SnackBar(content: Text('Sucessfully removed from the favs')));
+                                      },
+                                      child: Station(
+                                          name: e.name, vicinity: e.vicinity),
+                                    ),
                                   )
                                   .toList(),
                             ])),

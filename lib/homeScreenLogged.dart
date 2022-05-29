@@ -63,7 +63,7 @@ class _MyAppLoggedState extends State<MyAppLogged> {
     var gasindex = 0;
     for (var u in response.data['results']) {
       if (gasindex < 10) {
-        Stations newst = Stations(name: u['name'], vicinity: u['vicinity']);
+        Stations newst = Stations(name: u['name'], vicinity: u['vicinity'], id: "");
 
         Marker newMark = Marker(
 

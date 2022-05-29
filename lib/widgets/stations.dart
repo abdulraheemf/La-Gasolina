@@ -32,6 +32,7 @@ class _StationState extends State<Station> {
     final newfav = Stations(
       name: name,
       vicinity: vicinity,
+      id: ""
     );
     setState(() {
       favStations.add(newfav);
@@ -49,6 +50,7 @@ class _StationState extends State<Station> {
      LoadedList.add(Stations(
        name: value["name"], 
        vicinity: value["vicinity"], 
+       id: key
      ));
     });
     setState(() {
@@ -78,7 +80,7 @@ class _StationState extends State<Station> {
                         trailing: GestureDetector(
                           onTap: (){
                             setState(() {
-                              Stations news =  Stations(name: widget.name, vicinity: widget.vicinity);
+                              Stations news =  Stations(name: widget.name, vicinity: widget.vicinity, id: "");
                               
                               for(var i=0; i<favStations.length; i++){
                                 if(news.name==favStations[i].name && news.vicinity == favStations[i].vicinity){
