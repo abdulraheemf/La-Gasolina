@@ -230,7 +230,7 @@ class _MyAppState extends State<MyApp> {
               BottomNavigationBarItem(
                 icon: Icon(Icons.map),
                 label: "Map",
-                backgroundColor: Color(0xff4B4848),
+                backgroundColor: Colors.black,
               )
             ],
             onTap: (index) {
