@@ -104,10 +104,10 @@ class _StationState extends State<Station> {
                           onTap: (){
                             setState(() {
                               Stations news =  Stations(name: widget.name, vicinity: widget.vicinity, id: "");
-                              var thisID="";
+                               
                               for(var i=0; i<favStations.length; i++){
                                 if(news.name==favStations[i].name && news.vicinity == favStations[i].vicinity){
-                                  thisID=favStations[i].id;
+                                  widget.id=favStations[i].id;
                                   contains=true;
                                 }
                               }
@@ -125,9 +125,11 @@ class _StationState extends State<Station> {
                                   addNewFav(widget.name, widget.vicinity);
                                 }
                                 else if(contains){
-                                  print("i wanna delete it but cant........${thisID}");
-                                  deleteMatch(thisID);
-                                  favStations.removeWhere((element) => element.id==thisID);
+                                  print("i wanna delete it but cant........${widget.id}");
+                                  
+                                  //favStations.removeWhere((element) => element.id == widget.id);
+                                  deleteMatch(widget.id);
+                                  favStations.removeWhere((element) => element.id==widget.id);
                                 }
                               }
                               
