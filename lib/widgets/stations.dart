@@ -23,6 +23,15 @@ class _StationState extends State<Station> {
   bool contains = false;
   Color favcolor = Colors.white;
 
+  bool checkfav(String name, vicinity){
+      for(var i=0; i<favStations.length; i++){
+        if(name==favStations[i].name && vicinity == favStations[i].vicinity){
+          return true;
+          }
+      }
+      return false;
+  }
+
   void addNewFav(String name, String vicinity){
     final url = Uri.parse("https://la-gasolina-60017-default-rtdb.firebaseio.com/favs.json");
     http.post(url, body: json.encode({
@@ -104,7 +113,7 @@ class _StationState extends State<Station> {
                               
                             });
                           },
-                          child: Icon(Icons.favorite, color: favcolor,)),
+                          child: Icon(Icons.favorite, color: checkfav(widget.name, widget.vicinity)? Colors.red: favcolor,)),
         onTap: () {Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => Wrapper(name: widget.name)),
