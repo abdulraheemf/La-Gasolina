@@ -177,7 +177,7 @@ class _MyAppLoggedState extends State<MyAppLogged> {
                           ...stationList
                               .map(
                                 (e) => Station(
-                                name: e.name, vicinity: e.vicinity),
+                                name: e.name, vicinity: e.vicinity, id: e.id,),
                           )
                               .toList(),
                         ],

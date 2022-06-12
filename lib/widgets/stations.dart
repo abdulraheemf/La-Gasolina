@@ -10,8 +10,8 @@ import 'package:la_gasolina/widgets/gas_station_information.dart';
 import 'package:la_gasolina/widgets/wrapper.dart';
 
 class Station extends StatefulWidget {
-   String name, vicinity; 
-  Station({required this.name,  required this.vicinity});
+   String name, vicinity, id; 
+  Station({required this.name,  required this.vicinity,required this.id});
 
   @override
   State<Station> createState() => _StationState();
@@ -23,14 +23,7 @@ class _StationState extends State<Station> {
   bool contains = false;
   Color favcolor = Colors.white;
 
-  bool checkfav(String name, vicinity){
-      for(var i=0; i<favStations.length; i++){
-        if(name==favStations[i].name && vicinity == favStations[i].vicinity){
-          return true;
-          }
-      }
-      return false;
-  }
+  
 
   void addNewFav(String name, String vicinity){
     final url = Uri.parse("https://la-gasolina-60017-default-rtdb.firebaseio.com/favs.json");
@@ -70,6 +63,19 @@ class _StationState extends State<Station> {
       
     }
   }
+  Future<void> deleteMatch(String ID) {
+
+     print(ID);
+     final url = Uri.parse(
+         "https://la-gasolina-60017-default-rtdb.firebaseio.com/favs/$ID.json");
+     print("${url.toString()} pri");
+     return http.delete(url).then((response) {
+      // print(response.body);
+
+      favStations.removeWhere((element) => element.id == ID);
+
+     });
+   }
   @override
   void initState() {
     // TODO: implement initState
@@ -78,6 +84,14 @@ class _StationState extends State<Station> {
   }
   @override
   Widget build(BuildContext context) {
+    bool checkfav(String name, vicinity){
+      for(var i=0; i<favStations.length; i++){
+        if(name==favStations[i].name && vicinity == favStations[i].vicinity ){
+          return true;
+          }
+      }
+      return false;
+  }
     
     print("===========${favStations}");
     return Card(
@@ -90,14 +104,15 @@ class _StationState extends State<Station> {
                           onTap: (){
                             setState(() {
                               Stations news =  Stations(name: widget.name, vicinity: widget.vicinity, id: "");
-                              
+                              var thisID="";
                               for(var i=0; i<favStations.length; i++){
                                 if(news.name==favStations[i].name && news.vicinity == favStations[i].vicinity){
+                                  thisID=favStations[i].id;
                                   contains=true;
                                 }
                               }
                               print("contains==== ${contains}");
-                              favcolor=Colors.red;
+                              //favcolor=Colors.red;
                               if(favStations.isEmpty){
                                 addNewFav(widget.name, widget.vicinity);
                                
@@ -108,6 +123,11 @@ class _StationState extends State<Station> {
                                   print("not founddd");
                                   favStations.add(news);
                                   addNewFav(widget.name, widget.vicinity);
+                                }
+                                else if(contains){
+                                  print("i wanna delete it but cant........${thisID}");
+                                  deleteMatch(thisID);
+                                  favStations.removeWhere((element) => element.id==thisID);
                                 }
                               }
                               

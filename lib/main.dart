@@ -194,7 +194,7 @@ class _MyAppState extends State<MyApp> {
                               ...stationList
                                   .map(
                                     (e) => Station(
-                                        name: e.name, vicinity: e.vicinity),
+                                        name: e.name, vicinity: e.vicinity, id: e.id,),
                                   )
                                   .toList(),
                             ],
