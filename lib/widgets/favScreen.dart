@@ -88,7 +88,7 @@ class _FavScreenState extends State<FavScreen> {
                                           
                                         });
                                         ScaffoldMessenger.of(context)
-                              .showSnackBar(SnackBar(content: Text('Sucessfully removed from the favs')));
+                              .showSnackBar(const SnackBar(content: Text('Successfully removed from Favorites')));
                                       },
                                       child: Station(
                                           name: e.name, vicinity: e.vicinity),

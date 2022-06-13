@@ -157,7 +157,9 @@ class _editGasStationState extends State<editGasStation> {
                 ),
                 onPressed: () {
                   DatabaseService(uid: '0').addGasStation(widget.name, diesel.text, petrol.text);
-                  Navigator.push(
+                  ScaffoldMessenger.of(context)
+                      .showSnackBar(SnackBar(content: Text('Successfully Modified Price of '+ widget.name)));
+                  Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(builder: (context) => exist_gasStationInfo(name: widget.name)),
                   );

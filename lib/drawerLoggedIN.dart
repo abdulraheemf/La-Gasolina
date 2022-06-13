@@ -48,8 +48,13 @@ class DrawerScreenL extends StatelessWidget {
                   GestureDetector(
                     onTap: (){
                       auth.signOut();
-                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> MyApp(),
-                      ));
+                      ScaffoldMessenger.of(context)
+                          .showSnackBar(const SnackBar(content: Text('Successfully Logged Out')));
+                      Navigator.pushAndRemoveUntil(
+                        context,
+                        MaterialPageRoute(builder: (context) => MyApp()),
+                            (Route<dynamic> route) => false,
+                      );
                     },
                     child: const Card(
                       child: ListTile(

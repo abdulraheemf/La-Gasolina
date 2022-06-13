@@ -197,7 +197,13 @@ class _LoginPageState extends State<LoginPage> {
                           FocusScope.of(context).requestFocus(FocusNode());
                           try {
                             await _auth.signInWithEmailAndPassword(email:_email.text,password:_password.text);
-                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => MyAppLogged()));
+                            ScaffoldMessenger.of(context)
+                                .showSnackBar(const SnackBar(content: Text('Successfully Logged In!')));
+                            Navigator.pushAndRemoveUntil(
+                              context,
+                              MaterialPageRoute(builder: (context) => MyAppLogged()),
+                                  (Route<dynamic> route) => false,
+                            );
                           } catch (e){
                             setState(() {
                               error= 'Could not sign in, try again';

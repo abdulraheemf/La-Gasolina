@@ -156,7 +156,7 @@ class gasStationInfo extends StatelessWidget {
 
                 ),
                 onPressed: () {
-                  Navigator.push(
+                  Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(builder: (context) => editGasStation(name: name)),
                   );

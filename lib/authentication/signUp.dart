@@ -366,6 +366,8 @@ class _RegisterNewUserState extends State<RegisterNewUser> {
                           FocusScope.of(context).requestFocus(FocusNode());
                           try {
                              await AuthService().registerWithEmailAndPassword(email.text, password.text,firstName.text,secondName.text,phoneNumber.text);
+                             ScaffoldMessenger.of(context)
+                                 .showSnackBar(const SnackBar(content: Text('Account Successfully Created!')));
                             Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => LoginPage()));
                           } catch (e){
                           setState(() {
